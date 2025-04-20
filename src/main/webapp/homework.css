@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#calendarBox {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    position: relative;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+td {
+    position: relative;
+}
+
+.today {
+    background-color: #ffeb3b;
+    font-weight: bold;
+    border: 2px solid #fbc02d;
+}
+
+.nav-buttons {
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976d2;
+}
+
+.weekend-saturday {
+    color: blue;
+}
+
+.weekend-sunday {
+    color: red;
+}
+
+.schedule {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
